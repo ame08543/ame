@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Heladería Deliciosa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Barra de navegación */
+        nav {
+            background-color: #ffb6c1;
+            padding: 15px;
+            display: flex;
+            justify-content: space-around;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Secciones de contenido */
+        section {
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff69b4;
+        }
+
+        h2 {
+            color: #d147a3;
+        }
+
+        /* Imagen al final */
+        .imagen-helado {
+            text-align: center;
+            margin-top: 40px;
+            margin-bottom: 30px;
+        }
+
+        .imagen-helado img {
+            width: 250px;
+            height: auto;
+            border-radius: 15px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#sabores">Sabores</a>
+        <a href="#tamaños">Tamaños</a>
+    </nav>
+
+    <section>
+        <h1>Bienvenido a la Heladería Deliciosa</h1>
+        <p style="text-align:center;">¡Explora nuestros sabores y tamaños disponibles!</p>
+    </section>
+
+    <section id="sabores">
+        <h2>Sabores</h2>
+        <ul>
+            <li>Vainilla</li>
+            <li>Chocolate</li>
+            <li>Fresa</li>
+            <li>Menta con chispas</li>
+            <li>Mango</li>
+        </ul>
+    </section>
+
+    <section id="tamaños">
+        <h2>Tamaños</h2>
+        <ul>
+            <li>Pequeño (1 bola)</li>
+            <li>Mediano (2 bolas)</li>
+            <li>Grande (3 bolas)</li>
+            <li>Gigante (4 bolas o más)</li>
+        </ul>
+    </section>
+
+    <div class="imagen-helado">
+        <img src="helado.jpg" alt="Helado delicioso">
+    </div>
+
+</body>
+</html>
